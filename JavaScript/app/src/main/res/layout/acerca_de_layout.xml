@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uni"/>
+
+
+
+    <TextView android:id="@+id/txt_acerca"
+        android:text="@string/acerca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+    <TextView android:id="@+id/txt_universidad"
+        android:text="@string/utng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView android:id="@+id/txt_clase"
+        android:text="@string/clase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView android:id="@+id/txt_nombre"
+        android:text="@string/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+
+
+    <TextView android:id="@+id/txt_referencias"
+        android:text="@string/referencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+    <TextView android:id="@+id/txt_libro"
+        android:text="@string/libro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView android:id="@+id/txt_autor"
+        android:text="@string/autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView android:id="@+id/txt_autory"
+        android:text="@string/vid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView android:id="@+id/txt_dir"
+        android:text="@string/ji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <Button android:id="@+id/Btn_botonMasImagen1"
+        android:text="@string/cont"
+        android:drawableLeft="@drawable/arrow_next1"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="presionBotonImagen1"
+        android:clickable="true"
+
+        />
+
+</LinearLayout>

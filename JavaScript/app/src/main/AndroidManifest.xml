@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.javascript">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-sdk android:minSdkVersion="8"></uses-sdk>
+
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".InicioActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MapsActivity" android:label="@string/title_activity_maps"></activity>
+
+        <activity android:name="org.achartengine.GraphicalActivity" />
+
+        <activity android:name=".ListaActivity"></activity>
+        <activity android:name=".AcercaDeActivity"></activity>
+        <activity android:name=".Registrarme"></activity>
+        <activity android:name=".CambioContrasena"></activity>
+        <activity android:name=".Login"></activity>
+
+
+
+        <activity android:name=".introduccion.VideoI"></activity>
+        <activity android:name=".introduccion.ContenidoI"></activity>
+        <activity android:name=".introduccion.EvaluarI"></activity>
+        <activity android:name=".introduccion.EvaluarI1"></activity>
+        <activity android:name=".introduccion.EvaluarI2"></activity>
+        <activity android:name=".introduccion.EvaluarI3"></activity>
+        <activity android:name=".introduccion.EvaluarI4"></activity>
+
+
+        <activity android:name=".funciones.ContenidoF"></activity>
+        <activity android:name=".funciones.EvaluarF"></activity>
+        <activity android:name=".funciones.VideoF"></activity>
+        <activity android:name=".funciones.EvaluarF1"></activity>
+        <activity android:name=".funciones.EvaluarF2"></activity>
+        <activity android:name=".funciones.EvaluarF3"></activity>
+        <activity android:name=".funciones.EvaluarF4"></activity>
+
+
+        <activity android:name=".diseno.ContenidoD"></activity>
+        <activity android:name=".diseno.EvaluarD"></activity>
+        <activity android:name=".diseno.VideoD"></activity>
+        <activity android:name=".diseno.EvaluarD1"></activity>
+        <activity android:name=".diseno.EvaluarD2"></activity>
+        <activity android:name=".diseno.EvaluarD3"></activity>
+        <activity android:name=".diseno.EvalauarD4"></activity>
+
+
+        <activity android:name=".fundamenos.ContenidoFF"></activity>
+        <activity android:name=".fundamenos.EvaluacionFF"></activity>
+        <activity android:name=".fundamenos.VideoFF"></activity>
+        <activity android:name=".fundamenos.EvaluacionFF1"></activity>
+        <activity android:name=".fundamenos.EvaluacionFF2"></activity>
+        <activity android:name=".fundamenos.EvaluacionFF3"></activity>
+        <activity android:name=".fundamenos.EvaluacionFF4"></activity>
+
+
+        <activity android:name=".literales.ContenidoL"></activity>
+        <activity android:name=".literales.EvaluarL"></activity>
+        <activity android:name=".literales.VideoL"></activity>
+        <activity android:name=".literales.EvaluarL1"></activity>
+        <activity android:name=".literales.EvaluarL2"></activity>
+        <activity android:name=".literales.EvaluarL3"></activity>
+        <activity android:name=".literales.EvaluarL4"></activity>
+
+
+        <activity android:name=".navegador.ContenidoN"></activity>
+        <activity android:name=".navegador.EvaluarN"></activity>
+        <activity android:name=".navegador.VideoN"></activity>
+        <activity android:name=".navegador.EvaluarN1"></activity>
+        <activity android:name=".navegador.EvaluarN2"></activity>
+        <activity android:name=".navegador.EvaluarN3"></activity>
+        <activity android:name=".navegador.EvaluarN4"></activity>
+
+
+        <activity android:name=".objetos.ContenidoO"></activity>
+        <activity android:name=".objetos.EvaluarO"></activity>
+        <activity android:name=".objetos.VideoO"></activity>
+        <activity android:name=".objetos.EvaluarO1"></activity>
+        <activity android:name=".objetos.EvaluarO2"></activity>
+        <activity android:name=".objetos.EvaluarO3"></activity>
+        <activity android:name=".objetos.EvaluarO4"></activity>
+        <activity android:name=".objetos.CodigoI"></activity>
+
+        <activity android:name=".patrones.ContenidoP"></activity>
+        <activity android:name=".patrones.EvaluarP"></activity>
+        <activity android:name=".patrones.VideoP"></activity>
+        <activity android:name=".patrones.EvaluarP1"></activity>
+        <activity android:name=".patrones.EvaluarP2"></activity>
+        <activity android:name=".patrones.EvaluarP3"></activity>
+        <activity android:name=".patrones.EvaluarP4"></activity>
+
+        <activity android:name=".juego.Juego"></activity>
+        <activity android:name=".juego.Juego1"></activity>
+        <activity android:name=".juego.Juego2"></activity>
+        <activity android:name=".juego.Juego3"></activity>
+        <activity android:name=".juego.Juego4"></activity>
+        <activity android:name=".juego.Juego5"></activity>
+
+
+        <activity android:name="com.keyes.youtube.OpenYouTubePlayerActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Black"></activity>
+
+    </application>
+
+</manifest>

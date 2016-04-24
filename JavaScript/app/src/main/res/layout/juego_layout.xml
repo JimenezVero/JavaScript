@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/txt_juego"
+        android:text="@string/jg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+    <TextView android:id="@+id/txt_adivina"
+        android:text="@string/ju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+    <EditText android:id="@+id/edt_adiv"
+        android:text=""
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:hint="Palabra"
+        />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/adibinar"
+       android:id="@+id/btn_adiv"
+       android:layout_gravity="center"
+       android:enabled="true"
+       android:onClick="presionBotonAdivi"
+       android:clickable="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sigue"
+        android:id="@+id/btn_siguiente"
+        android:layout_gravity="right"
+        android:enabled="true"
+        android:onClick="presionBotonSiguiente"
+        android:clickable="true"/>
+
+
+</LinearLayout>

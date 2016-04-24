@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/cod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ci"
+        android:id="@+id/cck_rsp1" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oj"
+        android:id="@+id/cck_rsp2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cyb"
+        android:id="@+id/cck_rsp3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cal"
+        android:id="@+id/btn_califi"
+        android:layout_gravity="left"
+        android:enabled="true"
+        android:onClick="presionBotonCalificar"
+        android:clickable="true"
+        android:background="#02b7ab"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/con"
+        android:id="@+id/btn_continuar"
+        android:onClick="presionBotonC"
+        android:clickable="true"
+        android:background="#02b7ab"
+        android:layout_gravity="right" />
+
+</LinearLayout>

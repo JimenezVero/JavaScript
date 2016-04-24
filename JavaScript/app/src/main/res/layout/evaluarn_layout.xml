@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="right"
+            android:background="#02b7ab"
+            />
+
+
+
+    <TextView
+        android:text="@string/ref"
+        android:id="@+id/xv_evalu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/un"
+        android:id="@+id/cck_rsp1" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carga"
+        android:id="@+id/cck_rsp2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xh"
+        android:id="@+id/cck_rsp3" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/derf"
+        android:id="@+id/btn_califi"
+        android:layout_gravity="left"
+        android:background="#02b7ab"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ferd"
+        android:id="@+id/btn_continuar"
+        android:background="#02b7ab"
+        android:layout_gravity="right"
+        />
+
+</LinearLayout>

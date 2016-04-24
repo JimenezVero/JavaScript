@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="codigo">
+
+        <item>En HTML , el codigo se inserta entre scrip y /scrip</item>
+
+    </string-array>
+<string-array name="codigo2">
+    <item>La funcion siempre usa () al final.</item>
+    <item>function my() {    "use strict";    // rest of the function... }</item>
+    <item>El codigo se esructura dentro de (llaves{}).</item>
+</string-array>
+
+
+
+
+    <string-array name="id_idioma">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+
+    <string-array name="nombre_idioma">
+        <item>Español</item>
+        <item>Ingles</item>
+        <item>Frances</item>
+        <item>Japones</item>
+        <item>Chino Mandarin</item>
+
+    </string-array>
+
+    <string-array name="patrones">
+        <item>Patrones</item>
+        <item> En el desarrollo de software, un patrón es una solución a un problema común.</item>
+        <item>Identificar los patrones:</item>
+        <item>• Nos ayudan a escribir mejor código utilizando prácticas probadas y no reinventar la rueda.</item>
+        <item>• Proporcionan un nivel de abstracción: el cerebro sólo puede tener tanto en un momento dado,
+            por lo que cuando se piensa en un problema más complejo, ayuda si no se molesta con los detalles de bajo nivel,
+            sino dar cuenta de ellos con auto bloques de construcción -contained (patrones).</item>
+         <item>• Mejoran la comunicación entre desarrolladores y equipos, que son a menudo en lugares remotos y no se comunican
+            cara a cara. Basta con poner una etiqueta en alguna técnica de codificación o enfoque hace que sea más fácil para
+            asegurarse de que estamos hablando de lo mismo. Por ejemplo, es más fácil de decir (y pensar) "función inmediata,"
+            que "esta cosa donde se coloca la función en paréntesis y al final de ella puso otro conjunto de paréntesis,
+        a invocar el derecho de función en la que hemos definido. "</item>
+        <item>Orientado a objetos</item>
+        <item> JavaScript es un lenguaje orientado a objetos, que a menudo sorprende a los desarrolladores
+            que previamente han analizado el lenguaje y la desestimó. Cualquier cosanos fijamos en una pieza
+            de código JavaScript tiene una buena oportunidad de ser un objeto. Sólo cinco tipos primitivos no son objetos:
+            número, cadena, booleano, nula, e indefinido, y los tres primeros tienen la representación del objeto
+            correspondiente en forma de envolturas primitivos. Número, cadena, y
+            valores primitivos booleanos se convierten fácilmente a los objetos, ya sea por el programador o, a veces
+            detrás de las escenas por el intérprete de JavaScript.
+            Las funciones son objetos, también. Pueden tener propiedades y métodos.</item>
+        <item>Lo más sencillo que se hace en cualquier idioma es definir una variable. Pues bien,
+            en JavaScript cuando se define una variable, ya que estás se trata de objetos.
+            En primer lugar, la variable se convierte automáticamente en una propiedad de un
+            objeto interno conocido como un objeto de activación (o una propiedad del objeto global
+            si se trata de una variable global). En segundo lugar, esta variable es en realidad
+            también a objetos como porque tiene sus propias características (llamadas atributos),
+            que determinan si la variable se puede cambiar,
+            eliminar o enumeró en un bucle for-in.</item>
+        <item>Nativo descrito en la norma ECMAScript.</item>
+        <item>Anfitrión</item>
+        <item>Definido por el entorno de acogida (por ejemplo, el entorno del navegador) Los objetos nativos puede
+            aún ser categorizado como una función de (por ejemplo, Array, Date) o definidos por el
+            usuario (var o = {};)</item>
+        <item>Sin clases</item>
+        <item>No es necesario tener una clase para crear un objeto. Considere esto la creación de objetos similar a Java:</item>
+
+        <item> // Java objeto la creación
+               Hellooo hellooo = new Hellooo ();</item>
+
+    </string-array>
+
+    <string-array name="prototipos">
+        <item>Prototipos</item>
+        <item>JavaScript tiene  herencia, aunque esto es sólo una manera de reutilizar el código.
+             La herencia se puede lograr de varias maneras, que por lo general hacen uso de prototipos.
+            Un prototipo es un objeto (sin sorpresas) y cada función se crea automáticamente para crear
+            una propiedad de prototipo que apunta a un nuevo objeto en blanco. Este objeto es casi idéntica
+            a un objeto creado con un constructor de objetos literal o Object (), excepto que sus puntos de
+            propiedad constructor para la función que se crean y no a la incorporada en el objeto (). Puede
+            agregar miembros a este objeto en blanco y luego tener otros objetos heredan de este objeto y
+            utilizar sus propiedades como propio. Discutiremos herencia en detalle, pero por ahora sólo tener
+            en cuenta que el prototipo es un objeto (no una clase ni nada especial) y cada función tiene una
+            propiedad prototipo.</item>
+        <item>Ambiente</item>
+        <item>Los programas JavaScript, necesitan un entorno para funcionar. El hábitat natural de
+            un programa JavaScript es el navegador, pero eso no es el único entorno. Los patrones
+            en el libro son en su mayoría relacionados con el núcleo de JavaScript (ECMAScript)
+            por lo que son el medio ambiente agnóstico.</item>
+
+    </string-array>
+
+    <string-array name="ecm">
+        <item>ECMAScript 5</item>
+        <item>El núcleo lenguaje de programación JavaScript (excluyendo DOM, lista de materiales y
+            objetos adicionales de acogida) se basa en el estándar ECMAScript, o es, para abreviar.
+            La versión 3 de la norma fue aceptada oficialmente en 1999 y es la implementada actualmente
+            en todos los navegadores. La versión 4 fue abandonado y la versión 5 fue aprobada en diciembre
+            de 2009, 10 años después de la anterior.</item>
+        <item>La versión 5 añade algunos nuevos objetos, métodos y propiedades incorporadas a la lengua,
+            pero su adición más importante es el llamado modo estricto, que en realidad elimina
+            características de la lengua, por lo que los programas más simple y menos propenso a
+            errores. Por ejemplo, el uso de la sentencia with se ha disputado en los últimos años.
+            Ahora en modo estricto ES5 se genera un error, a pesar de que está bien si se encuentra
+            en modo de no estricto. El modo estricto se desencadena por una cadena ordinaria,
+            que las implementaciones anteriores de la lengua simplemente ignoran. Esto significa que
+            el uso de modo estricto es compatible hacia atrás, porque no va a provocar errores en los
+            navegadores antiguos que no entienden</item>
+        <item>Una vez por alcance (ya sea ámbito de la función, alcance global, o al comienzo de una cadena
+                pasó a eval ()), puede utilizar la siguiente cadena:</item>
+
+         <item>            funcionar mi () {
+                          "Use strict";
+                            // Resto de la función ...
+                     }</item>
+
+           <item>Esto significa que el código de la función se ejecuta en el estricto subconjunto del lenguaje.
+            Para los navegadores antiguos que esto es sólo una cadena no esté asignado a cualquier
+            variable, por lo que no está acostumbrado, y sin embargo, no es un error.El plan para
+            el lenguaje es que en el modo estricto futuro será el único permitido.</item>
+
+        <item>JSLint</item>
+        <item>JSLint es una herramienta de la calidad del código JavaScript creado por Douglas
+            Crockford que inspecciona el código y avisa de posibles problemas. Es muy recomendable
+            que ejecute el código a través JSLint. La herramienta de "lastimar sus sentimientos",
+            como advierte su creador, pero sólo al principio. Usted puede aprender rápidamente de
+            sus errores y adoptar los hábitos esenciales de un programador JavaScript profesional.
+            Al no tener errores en el código JSLint también le ayuda a tener más confianza en el
+            código, sabiendo que no hizo un simple omisión o error de sintaxis en un apuro</item>
+
+        <item>Consola</item>
+        <item>Este objeto no es parte del lenguaje sino que forma parte del medio ambiente y está
+            presente en la mayoría de los navegadores actuales. En Firefox, por ejemplo, viene con
+            la extensión Firebug. La consola de Firebug tiene una interfaz de usuario que le permite
+            escribir con más rapidez y probar pequeñas piezas de código JavaScript y también juega
+            con la página cargada actualmente.</item>
+
+    </string-array>
+
+    <string-array name="fundamentos">
+        <item>Fundamentos</item>
+        <item>JavaScript utiliza funciones para gestionar el alcance. Una variable declarada dentro
+            de una función es local a esa función y no está disponible fuera de la función. Por
+            otra parte, las variables globales son las declaradas fuera de cualquier función o
+            simplemente utilizado sin ser declarado. Cada entorno JavaScript tiene un objeto global
+            accesible cuando se utiliza esta fuera de cualquier función. Cada variable global se crea
+            se convierte en una propiedad del objeto global. En los navegadores, por conveniencia, hay
+            una propiedad adicional de la llamada ventana de objeto global que (por lo general) señala
+            que el propio objeto global. El siguiente fragmento de código muestra cómo crear y accede
+            a una variable global en un entorno de navegador:</item>
+        <item>myglobal = "hello"; // antipattern console.log(myglobal); // "hello" console.log(window.myglobal);
+            // "hello" console.log(window["myglobal"]); // "hello" console.log(this.myglobal); // "hello"</item>
+        <item>El problema con Globals</item>
+        <item>El problema con las variables globales es que se comparten entre todo el código JavaScript
+            en su aplicación o página web. Ellos viven en el mismo espacio de nombres global y siempre hay
+            una posibilidad de nombrar colisiones cuando dos partes separadas de una aplicación definen las
+            variables globales con el mismo nombre pero con diferentes propósitos.También es común para
+            las páginas web que incluyen código no escrito por los desarrolladores de la página, por ejemplo:</item>
+        <item>• Una biblioteca de JavaScript de terceros</item>
+        <item> • Scripts de un socio de publicidad</item>
+        <item>• Código de un guión seguimiento de los usuarios de terceros y análisis</item>
+        <item>• Diferentes tipos de aparatos, insignias y botones</item>
+        <item>Efectos secundarios al olvidar var</item>
+        <item>Hay una ligera diferencia entre variables globales implícita y explícitamente
+            definidos los de la diferencia está en la capacidad de quitar la definición de estas
+            variables utilizando el operador delete:</item>
+        <item>• Globals creados con var (los creados en el programa fuera de cualquier función) no se pueden borrar.</item>
+        <item>• Incluye globales creadas sin var (sin tener en cuenta si se crea dentro de funciones) pueden ser borrados.</item>
+        <item>Esto demuestra que las variables globales implícitas no son técnicamente variables reales,
+            sino que son propiedades del objeto global.</item>
+        <item>El acceso al objeto global</item>
+        <item>En los navegadores, el objeto global es accesible desde cualquier parte del código a
+            través de la propiedad de la ventana (a menos que usted ha hecho algo especial e inesperado,
+            como la que se declara una variable denominada ventana local). Pero en otros entornos de
+            esta propiedad de conveniencia puede ser llamado algo más (o incluso no está disponible
+            para el programador). Si necesita acceder al objeto global sin codificación dura de la
+            ventana identificador, puede hacer lo siguiente desde cualquier nivel del ámbito de la
+            función anidada: var mundial = (function () {return esto;} ()); De esta manera siempre
+            se puede conseguir el objeto global, ya que dentro de las funciones que se invocan como
+            funciones (es decir, no como constrictores con nueva) esta siempre deben estar orientados
+            al objeto global.</item>
+        <item>Se utiliza una sentencia var y declarar múltiples variables delimitados por comas.
+            Es una buena práctica para inicializar también la variable con un valor inicial en el
+            momento en que se declara. Esto puede evitar errores lógicos (todas las variables
+            inicializadas y declarados se inicializan con el valor definido) y también mejorar la
+            legibilidad del código. </item>
+
+    </string-array>
+    <string-array name="loops">
+        <item>Loops</item>
+        <item>En los bucles for itera sobre arrays u objetos de matriz similar a como argumentos
+            y objetos HTMLCollection.</item>
+        <item>Esto puede afectar al rendimiento del código, especialmente cuando mi matriz no es una
+            matriz sino un objeto HTMLCollection.Collection son objetos devueltos por métodos DOM, tales como:</item>
+        <item>• document.getElementsByName() </item>
+        <item>• document.getElementsByClassName()</item>
+        <item> • document.getElementsByTagName()</item>
+        <item>for-in Loops </item>
+        <item>También se llama enumeración. Técnicamente, también se puede utilizar para
+            recorrer arrays (porque en JavaScript matrices son objetos), pero no es recomendable.
+            Todo ello puede conducir a errores lógicos si el objeto de matriz ya ha sido aumentada
+            con funcionalidad personalizada.</item>
+        <item>  Aumentar la propiedad prototipo de las funciones constructoras es unapoderosa manera
+            de añadir funcionalidad, pero puede ser demasiado poderoso veces. Es tentador para
+            aumentar prototipos de constructores incorporadas tales como Object (), Array () o la función (),
+            pero puede dañar seriamente el mantenimiento, ya que hará que su código sea menos predecible.
+            Otros desarrolladores que utilizan el código probablemente esperarán que el incorporado en los
+            métodos de JavaScript para trabajar de forma constante y no esperar que sus adiciones.</item>
+        <item>Patrón conmutador</item>
+        <item>Puede mejorar la legibilidad y la solidez de sus sentencias switch siguiendo este patrón.</item>
+        <item>Evitar Encasillamiento Implícito</item>
+        <item>Las variables typecasts implícita de JavaScript cuando se comparan. Es por eso que las comparaciones
+            como false == 0 o "" == 0 return true. Para evitar la confusión causada por el
+            encasillamiento implícita, utilice siempre la === == y operadores que controlan tanto
+            los valores como el tipo de las expresiones a comparar.</item>
+        <item>Las conversiones de números con parseInt ()</item>
+        <item>Usando parseInt () se puede obtener un valor numérico de una cadena. La función acepta
+            un segundo parámetro radix, que a menudo se omite, pero no debe ser. Los problemas se
+            producen cuando la cadena a analizar se inicia con 0: por ejemplo, una parte de una
+            fecha de entrada en un campo de formulario. Las cadenas que comienzan con 0 se tratan
+            como números octales (base 8) en ECMAScript 3; Sin embargo, esto ha cambiado en ES5.</item>
+
+    </string-array>
+    <string-array name="sangria">
+        <item>Sangría</item>
+        <item>Código sin sangría es imposible leer. La única cosa peor es código con sangría inconsistente,
+            ya que parece que está siguiendo la convención, pero puede tener sorpresas confusas a lo largo
+            del camino. Es importante normalizar el uso de la sangría. Algunos desarrolladores prefieren
+            muesca con pestañas, ya que cualquiera puede modificar su editor para mostrar las pestañas con
+            el número preferido de los espacios de forma individual. Algunos prefieren los espacios por lo
+            general cuatro. No importa el tiempo que todos en el equipo sigue la misma convención.</item>
+        <item>Las llaves se deben utilizar siempre, incluso en los casos en que son opcionales. Técnicamente,
+            si usted tiene sólo una sentencia en un caso o una para, no se requieren llaves, pero siempre se
+            debe utilizar de todos modos. Esto hace que el código sea más consistente y más fácil de actualizar.</item>
+        <item>Espacio en blanco</item>
+        <item>El uso de espacio en blanco también puede contribuir a mejorar la legibilidad y la
+            coherencia del código. En las oraciones en inglés escritas utiliza intervalos después de
+            las comas y puntos. En JavaScript se sigue la misma lógica y añadir intervalos después de
+            las expresiones de listas como (equivalente a comas) y al final de las sentencias
+            (equivalente a completar un "pensamiento").</item>
+        <item>Otra manera de hacer que el código sea más predecible y fácil de mantener es la adopción
+            de las convenciones de nombres. Eso significa que la elección de nombres para las variables
+            y funciones de una manera consistente. A continuación se presentan algunas sugerencias convención
+            de nombres que se pueden adoptar tal cual o modificar a su gusto. </item>
+        <item>Cuando tiene varias palabras en una variable o un nombre de función, que es una buena
+            idea seguir una convención en cuanto a cómo se separan las palabras. Una convención común
+            es utilizar el llamado caso de camellos. Siguiendo la convención caso de camellos, que
+            escribe las palabras en minúsculas, solamente en mayúscula la primera letra de cada palabra.
+            Para sus constructores, puede utilizar el caso de camellos superior, como en MyConstructor (),
+            y para los nombres de las funciones y métodos, puede utilizar minúsculas camello, como en myFunction (),
+            calculateArea () y getFirstName ().</item>
+        <item>Comentar el código, incluso si es poco probable que alguien que no se volverá a tocarla. Con un //.</item>
+        <item>Documentación de la API puede ser auto-generada a partir de comentarios en el código.</item>
+    </string-array>
+
+
+
+
+    <string-array name="literales">
+
+        <item>Cuando se piensa en los objetos en JavaScript, sólo tiene que pensar en las tablas
+            hash de pares de valores clave (similar a lo que se llama "matrices asociativas" en
+            otros idiomas). Los valores pueden ser primitivas u otros objetos; en ambos casos se
+            les llama propiedades. Los valores también pueden ser funciones, en cuyo caso se les
+            llama métodos. Los objetos personalizados se crean en JavaScript (en otras palabras,
+            los objetos nativos definidos por el usuario) son mutables en cualquier momento. Muchas
+            de las propiedades de los objetos nativos incorporados también son mutables.</item>
+        <item>Objetos de un constructor</item>
+        <item>No hay clases en JavaScript y esto permite una gran flexibilidad, ya que no tiene que
+            saber nada acerca de su objeto de antemano; usted no necesita un "plan maestro". Sin
+            embargo, la clase de JavaScript también tiene funciones constructoras, que utilizan
+            una sintaxis similar a la creación de objetos de clase basada en Java u otros lenguajes.
+            Puede crear objetos utilizando sus propias funciones constructoras o utilizando algunos
+            de los constructores orden interna como Object (), Fecha (), String () y así sucesivamente.</item>
+        <item> Usted no tiene ninguna razón para utilizar el constructor new Object () cuando se
+            puede utilizar un objeto literal, pero es posible que se hereda código heredado
+            escrito por otros, por lo que debe ser consciente de una "característica" de este
+            constructor (o otra no la razón para usarlo). La característica en cuestión es que
+            el objeto () constructor acepta un parámetro y, dependiendo del valor que se pasa,
+            puede decidir delegar la creación del objeto a otro constructor incorporado y devolver
+            un objeto diferente de lo esperado.</item>
+        <item>Los valores de retorno de constructores</item>
+        <item>Cuando se invoca con el nuevo, una función constructora siempre devuelve un objeto;
+            por defecto es el objeto a que se refiere el presente. Si no se agrega propiedades
+            a este interior de su constructor, un objeto "vacío" se devuelve ("vacío" al margen
+            de la herencia de prototipo del constructor). Constructores implícitamente devolver
+            este, incluso cuando usted no tiene una sentencia return en la función. Pero se puede
+            devolver cualquier otro objeto de su elección.</item>
+        <item>La convención de nomenclatura es alternativa más sencilla de utilizar una convención de
+            nomenclatura, en el que la primera letra en mayúsculas en los nombres de constructor
+            (Myconstructor) y minúsculas en funciones "normales" y métodos (myFunction).</item>
+
+    </string-array>
+
+    <string-array name="that">
+
+        <item>Usando that, siguiendo una convención de nombres sin duda puede ayudar, pero se limita a
+            sugerir y no hacer cumplir el comportamiento correcto. Aquí hay un patrón que le ayuda a
+            asegurarse de que su constructor siempre se comporta como un constructor. En lugar de añadir
+            todos los miembros a esto, se agrega a that y luego regrese a that.</item>
+        <item>Invocación de auto-Constructor</item>
+        <item> En el constructor de comprobar si se trata de una instancia de su constructor, y si no,
+            el constructor invoca en sí, esta vez correctamente con el nuevo.</item>
+        <item>Literal de matriz</item>
+        <item>Las matrices en JavaScript, como la mayoría de otras cosas en el lenguaje, son objetos.
+            Pueden ser creados con la función Array constructor incorporada (), pero también tienen
+            una notación literal y, al igual que el objeto literal, la notación literal de matriz es más
+            simple y preferido. He aquí cómo usted puede crear dos tablas con los mismos elementos de dos
+            maneras: diferentes utilizando el constructor de Array () y utilizando el patrón literal.</item>
+        <item>Sintaxis literal de matriz</item>
+        <item>No hay mucho a la notación literal de matriz: es sólo una lista separada por comas de
+            los elementos y la lista entera se envuelve entre corchetes. Puede asignar cualquier tipo
+            de valor a los elementos de la matriz, incluyendo objetos u otras matrices. La sintaxis
+            literal de matriz es simple, sencillo y elegante. Después de todo, una matriz es sólo
+            una lista indexada a cero de los valores. No hay necesidad de complicar las cosas
+            (y escribir más código) mediante la inclusión de un constructor y con el nuevo operador.</item>
+
+    </string-array>
+
+    <string-array name="literales2">
+
+        <item>Constructor matriz Cortesía</item>
+        <item>Una razón más para permanecer lejos de new Array () es para evitar una posible trampa
+            en la que este constructor tiene en el almacén para usted. Cuando se pasa un solo número
+            para el constructor de Array (), no se convierta en el valor del primer elemento de la matriz.
+            Se establece la longitud de la matriz en su lugar. Esto significa que new Array (3)
+            crea una matriz con una longitud de 3, pero no hay elementos reales. Si intenta acceder
+            a cualquiera de los elementos, se obtiene el valor undefined porque no existen los elementos.
+            El ejemplo de código siguiente muestra el diferente comportamiento cuando se utiliza el literal
+            y el constructor con un solo valor.</item>
+        <item>JSON</item>
+        <item>JavaScript Object Notation es un formato de transferencia de datos. Es ligero y
+            cómodo de trabajar con muchos idiomas, especialmente en JavaScript.</item>
+        <item>Envolturas primitiva </item>
+        <item>JavaScript tiene cinco tipos de valores primitivos: Number, String, Boolean, nula, y no definidos.
+            Con la excepción de null y undefined, los otros tres tienen los llamados objetos que los primitivos.
+            Los objetos que los contienen pueden ser creados utilizando el número de constructores incorporada (),
+            String (), y Boolean ().</item>
+        <item>Objetos de error</item>
+        <item>JavaScript tiene un número de constructores de error incorporadas, como Error (),
+            error de sintaxis (), TypeError (), y otros, que se utilizan con la sentencia throw.</item>
+
+
+    </string-array>
+
+    <string-array name="funciones">
+
+        <item>Fondo</item>
+        <item>Hay dos características principales de las funciones en JavaScript que los
+            hacen especial- la primera es que las funciones son objetos de primera clase
+            y el segundo es que proporcionan alcance.</item>
+        <item>Expresiones: declaraciones o expresiones de función Nombres y elevación entonces,
+            ¿qué debe usted utilizar funciones? En los casos en los que sintácticamente no se puede
+            utilizar una declaración, este dilema se resuelve.</item>
+        <item> En la declaración de funciones y expresiones de función con nombre, nombre de la
+            propiedad se define. En las expresiones de función anónimos, que depende de la
+            implementación; podría ser indefinido (IE) o definido con una cadena vacía (Firefox, WebKit).</item>
+        <item>Las funciones son objetos, lo que significa que se pueden pasar como argumentos
+            a otras funciones. Cuando se pasa la función de introducir errores () como un parámetro
+            a la función writeCode (), entonces en algún punto Código de escritura () es probable
+            que ejecutar (o llamada) introducir errores (). En este caso introducir errores () se
+            llama una función de devolución de llamada o simplemente una devolución de llamada.</item>
+
+    </string-array>
+
+    <string-array name="eventos">
+
+        <item>Detectores de eventos asíncronos</item>
+        <item>El patrón de devolución de llamada tiene muchos usos cotidianos; por ejemplo,
+            cuando se instala un detector de eventos a un elemento de una página,
+            en realidad estás proporcionando un puntero a una función de devolución de llamada
+            que se llamará cuando se produzca el evento. He aquí un ejemplo sencillo de cómo
+            console.log () se pasa como una devolución de llamada cuando escucha el caso de documento.</item>
+        <item>Tiempos de espera</item>
+        <item>Otro ejemplo del patrón de devolución de llamada en la naturaleza es cuando se utiliza
+            los métodos de tiempo de espera proporcionadas por objeto la ventana del navegador:
+            setTimeout () y setInterval (). Estos métodos también aceptan y ejecutan las devoluciones de llamada.</item>
+        <item>Las devoluciones de llamada en Bibliotecas</item>
+        <item>La devolución de llamada es un patrón simple y de gran alcance, que puede ser útil
+            cuando usted está diseñando una biblioteca. El código que entra en una biblioteca de
+            software debería ser tan genérico y reutilizable como sea posible, y las devoluciones
+            de llamada puede ayudar con esta generalización. No es necesario para predecir y poner
+            en práctica todas las características que se pueda imaginar, porque va a hinchar la
+            biblioteca, y la mayoría de los usuarios nunca necesitará una gran parte de esas
+            características. En su lugar, se centra en la funcionalidad del núcleo y proporciona
+            "ganchos" en forma de devoluciones de llamada, lo que permitirá a los métodos de la
+            biblioteca para ser fácilmente construidos sobre, extendidos, y personalizados.</item>
+
+    </string-array>
+
+    <string-array name="volviendo">
+
+        <item>Volviendo a Funciones</item>
+        <item>Las funciones son objetos, por lo que se pueden utilizar como valores de retorno.
+            Esto significa que una función no necesita volver algún tipo de valor de los datos o
+            matriz de datos como resultado de su ejecución. Una función puede devolver otra función
+            más especializada, o se puede crear otra función a la carta, en función de algunas entradas.</item>
+        <item>Las funciones pueden ser definidos de forma dinámica y se pueden asignar a las variables.
+            Si crea una nueva función y la asigna a la misma variable que ya tiene otra función,
+            se desea sobreescribir la función antigua con la nueva. En cierto modo, estás reciclado
+            el viejo puntero de función para que apunte a una nueva función. Y todo esto puede
+            suceder en el interior del cuerpo de la función de edad. En este caso la función
+            sobrescribe y se redefine con una nueva aplicación.</item>
+        <item>El patrón de función inmediata es una sintaxis que le permite ejecutar una función
+            tan pronto como se ha definido. Al igual que cualquier otra función, una función inmediata
+            puede devolver valores y estos valores de retorno puede ser asignado a las variables.</item>
+        <item>Inicialización objeto inmediato</item>
+        <item>Otra manera de protegerse de la contaminación de alcance global, similar a las funciones
+            inmediatas patrón, es el siguiente patrón inmediata objeto de
+            inicialización. Este modelo utiliza un objeto con un método init (), que se ejecuta
+            inmediatamente después se crea el objeto. La función init () se encarga de todas las
+            tareas de inicialización</item>
+        <item>  Las funciones son objetos, para que puedan tener propiedades. De hecho, ellos
+            tienen propiedades y métodos fuera de la caja. Por ejemplo, todas las funciones,
+            no importa qué sintaxis que se utiliza para crearlo, se pone automáticamente una
+            propiedad de longitud que contiene el número de argumentos de la función espera.
+        El patrón de objeto de configuración es una manera de proporcionar APIs más limpias,
+            especialmente si usted está construyendo una biblioteca o cualquier otro código
+            que será consumido por otros programas. Es un hecho de la vida que los requisitos
+            de software cambian a medida que el software es desarrollado y mantenido</item>
+        <item>Currying </item>
+        <item>Se trata del nombre del matemático Haskell Curry. (El lenguaje de programación
+            Haskell también se nombra después de él.) Currying es un proceso de transformación,
+            transformamos una función. Un nombre alternativo para currificación podría ser
+            schönfinkelisation, después de que el nombre de otro matemático, Moisés Schönfinkel,
+            el inventor original de esta transformación.
+        Cuando usted se encuentra llamando a la misma función y que pasa en su mayoría los mismos
+            parámetros, entonces la función es probablemente un buen candidato para currying. Puede
+            crear una nueva función de forma dinámica mediante la aplicación parcial de un conjunto
+            de argumentos a la función. La nueva función se quedará con los parámetros almacenados
+            repetidas (por lo que no tiene que pasar a ellos cada vez) y los usará para pre-llenar
+            la lista completa de los argumentos que la función original de espera.</item>
+    </string-array>
+
+    <string-array name="creacion">
+
+        <item>Espacio de nombres</item>
+        <item>Como función de la complejidad de un programa crece y algunas partes de código de
+            obtener divide en diferentes archivos e incluyó condicionalmente, se vuelve insegura
+            para asumir simplemente que su código es el primero en definir un cierto espacio de
+            nombres o una propiedad dentro de ella. Algunas de las propiedades que estás agregando
+            al espacio de nombres ya existan, y que podría ser sobreescribiéndolos. Por lo tanto,
+            antes de añadir una propiedad o la creación de un espacio de nombres, lo mejor es
+            comprobar primero que no existe ya.</item>
+        <item>La declaración de dependencias</item>
+        <item>Las bibliotecas de JavaScript a menudo son modulares y de espacio de nombres, que
+            le permite incluir sólo los módulos que se requieren. Por ejemplo, en YUI 2
+            hay un YAHOO variable global, que sirve como un espacio de nombres, y luego
+            los módulos que son propiedades de la variable global, como YAHOO.util.Dom
+            (el módulo DOM) y YAHOO.util.Event (módulo de Eventos ).</item>
+        <item>Métodos privilegiados</item>
+        <item>La noción de métodos privilegiados no implica ninguna sintaxis específica;
+            es sólo un nombre dado a los métodos públicos que tienen acceso a los miembros privados
+            (y por lo tanto tienen más privilegios).</item>
+    </string-array>
+
+    <string-array name="privacidad">
+
+        <item>Todo lo que necesita es una función para envolver los datos privados. Así, en el
+            caso de los literales de objetos, puede utilizar el cierre creado por una función
+            inmediata anónima adicional.</item>
+        <item>Para evitar la duplicación de esfuerzos y ahorrar memoria, se pueden añadir propiedades
+            y métodos comunes a la propiedad prototipo del constructor. De esta manera las partes
+            comunes son compartidos entre todas las instancias creadas con el mismo constructor.
+            También puede compartir los miembros privados ocultos entre las instancias. Para ello
+            se puede utilizar una combinación de dos patrones: propiedades privadas dentro de los
+            constructores y propiedades privadas en objetos literales. Dado que la propiedad prototipo
+            es sólo un objeto, éste se puede crear con los objetos literales.</item>
+        <item>El patrón de la revelación se trata de tener métodos privados, que también exponen como
+            métodos públicos. Esto podría ser útil cuando toda la funcionalidad de un objeto es crítico
+            para el funcionamiento del objeto y que quieren proteger tanto como sea posible. Pero,
+            al mismo tiempo que desea proporcionar acceso público a algunas de esta funcionalidad,
+            ya que podría ser útil, también. Al exponer públicamente los métodos, que los hacen
+            vulnerables; algunos de los usuarios de su API pública puede modificarlo, aunque involuntariamente.
+            En ECMAScript 5 tiene la opción de congelar un objeto, pero no en las versiones anteriores de la lengua.
+            Introduzca el patrón de la revelación (el término acuñado por Christian Heilmann originalmente era
+            "patrón módulo revelador").</item>
+
+
+    </string-array>
+    <string-array name="patrones_modulo">
+
+        <item>Patrón módulo</item>
+        <item>El patrón módulo se utiliza ampliamente, ya que proporciona la estructura y ayuda a organizar
+            su código a medida que crece. A diferencia de otros idiomas, JavaScript no tiene una sintaxis
+            especial para los paquetes, pero el patrón módulo proporciona las herramientas para crear piezas
+            desacopladas autónomos de código, que pueden ser tratadas como cajas negras de la funcionalidad
+            y añadidos, sustituidos o removidos de acuerdo con la (siempre cambiante) requisitos del software
+            que estás escribiendo.</item>
+        <item>El patrón módulo puede ser organizado de una manera similar, en el que todos los métodos
+            son privadas y sólo se exponen las que se decide al final, mientras que la creación de la API pública.</item>
+        <item>Los miembros estáticos</item>
+        <item>Propiedades y métodos estáticos son aquellos que no cambian de una instancia a otra.
+            En lenguajes basados en clases, los miembros estáticos se crean utilizando una sintaxis
+            especial y luego se utilizan como si fueran miembros de la clase en sí. Por ejemplo,
+            un método max estática () de alguna clase MathUtils se invoca como MathUtils.max (3, 5).
+            Este es un ejemplo de un miembro estático público, que puede ser utilizado sin tener que
+            crear una instancia de la clase. También puede haber miembros no-estáticos privados visibles
+            para el consumidor de la clase, pero aún compartidos entre todas las instancias de la clase.</item>
+        <item> En JavaScript no hay una sintaxis especial para denotar los miembros estáticos.
+            Pero usted puede tener la misma sintaxis que en un lenguaje "con clase" mediante
+            el uso de una función constructora y añadiendo propiedades a la misma. Esto funciona
+            porque los constructores, al igual que todas las demás funciones, son objetos y que
+            pueden tener propiedades. El patrón memorization discutido en el capítulo anterior
+            emplea las mismas propiedades idea agregado a una función</item>
+    </string-array>
+
+    <string-array name="implementacion">
+
+        <item>A menudo se oye el término "herencia clasica" en las discusiones sobre el tema de
+            la herencia en JavaScript, por lo que vamos a aclarar lo que significa la primera
+            clásicos. El término no se utiliza en el sentido de algo antiguo, se establecieron
+            o ampliamente aceptado como la forma correcta de hacer las cosas. El término es sólo
+            un juego de la palabra "clase". Muchos lenguajes de programación tienen la noción de
+            clases como planos de objetos. En estos idiomas cada objeto es una instancia de una
+            clase específica y (en el caso de Java, por ejemplo) de un objeto no se puede crear
+            si no existe la clase para ello. En JavaScript, porque no hay clases, la noción de
+            instancias de clases no tiene mucho sentido. Los objetos en JavaScript son simplemente
+            pares de valores clave, que se pueden crear y cambiar sobre la marcha.</item>
+        <item>Resultado esperado cuando se utiliza la herencia clásica</item>
+        <item>El objetivo de implementar la herencia clasica es tener objetos creados
+            por un hijo función constructora () obtener las propiedades que vienen de otro
+            padre constructor ().El método utilizado más comúnmente es el de crear un objeto
+            utilizando el constructor de Padres () y asignar este objeto al Hijo prototipo.</item>
+        <item>El uso de este patrón se hereda las propiedades propias (propiedades específicas de
+            cada instancia añaden a esta, como el nombre) y las propiedades y métodos de prototipo (como ejemplo ()).</item>
+        <item>Este patrón siguiente resuelve el problema de pasar argumentos desde el niño al padre.
+            Se toma prestado el constructor de los padres, pasando el objeto hijo a estar ligado a
+            esto y también permite reenviar cualquier argumento.</item>
+
+
+    </string-array>
+
+    <string-array name="cadena">
+
+        <item>La cadena de prototipos</item>
+        <item>Los constructores padres familiarizados () y el Niño. Niño () se ha modificado
+            ligeramente para seguir el nuevo patrón</item>
+        <item>El uso de los patrones de constructores de endeudamiento, es posible implementar
+            la herencia múltiple, simplemente mediante préstamos de más de un constructor:</item>
+        <item>function Cat() {    this.legs = 4;    this.say = function () {        return "meaowww";    } }
+function Bird() {    this.wings = 2;    this.fly = true; }
+function CatWings() {    Cat.apply(this);    Bird.apply(this); }
+var jane = new CatWings(); console.dir(jane);</item>
+        <item>Una última cosa que añadir a esta función de la herencia clásica es casi perfecta para restablecer el
+            puntero a la función constructora en caso de que lo necesite en el futuro. Si no pone a cero el puntero
+            al constructor, a continuación, todos los objetos hijos se informe de que los Padres () fue su constructor,
+            que no es útil. Así, utilizando la aplicación previa de heredar (), se puede observar este comportamiento:</item>
+        <item>// parent, child, inheritance function Parent() {} function Child() {} inherit(Child, Parent);
+// testing the waters var kid = new Child(); kid.constructor.name; // "Parent" kid.constructor === Parent; // true</item>
+
+
+    </string-array>
+
+    <string-array name="klass">
+
+        <item>Klass</item>
+        <item>Muchas bibliotecas de JavaScript emulan las clases, la introducción de una nueva
+            sintaxis de azúcar. Las implementaciones diferentes, pero a menudo hay algunos puntos
+            en común.</item>
+        <item>Los objetos heredan de otros objetos. Se puede pensar en ello de esta manera:
+            usted tiene un objeto que le gustaría volver a usar y que desea crear un segundo
+            objeto que obtiene su funcionalidad a partir de la primera.</item>
+        <item>ECMAScript 5</item>
+        <item>En ECMAScript 5, el patrón de herencia de prototipos se convierte oficialmente en una
+            parte de la lengua. Este patrón se implementa a través del método Object.create (). En
+            otras palabras, usted no tendrá que rodar su propia función similar a Object (); que se
+            construirá en el idioma.:</item>
+        <item>Patrón de herencia-herencia copiando propiedades. En este modelo, un objeto se pone
+            la funcionalidad de otro objeto, simplemente copiándolo.</item>
+        <item>Tomando la idea de la herencia copiando propiedad un paso más allá, vamos a considerar
+            un patrón "mixin". En lugar de copiar de un objeto, puede copiar de cualquier número de
+            objetos y se los mezcla en un nuevo objeto.</item>
+        <item>Métodos de endeudamiento</item>
+        <item> A veces puede ocurrir que sólo gusta uno o dos métodos de un objeto existente.
+            Desea volver a utilizar, pero que realmente no quiere formar una relación padre-hijo
+            con ese objeto. Que desea utilizar sólo los métodos que te gusta, sin heredar todos
+            los otros métodos que usted nunca se necesita. Esto es posible con el patrón métodos
+            de endeudamiento, que se beneficia de la llamada métodos de la función () y aplicar ().</item>
+        <item>Al pedir un préstamo a través de métodos, ya sea llamada () / apply ()
+            o por medio de asignación simple, el objeto que esto apunta hacia el interior
+            del método prestado se determina en base a la expresión llamada. Pero a veces
+            es mejor tener el valor de esta "bloqueado" o enlazado a un objeto específico
+            y predeterminado de antemano.</item>
+    </string-array>
+
+    <string-array name="instancia">
+
+        <item>La idea del patrón singleton es tener sólo una instancia de una clase específica.
+            Esto significa que la segunda vez que se utiliza la misma clase para crear un nuevo
+            objeto, que debe recibir el mismo objeto que se crea la primera vez.</item>
+        <item>Otra forma de hacer el singleton clase-como es el uso de un cierre para proteger
+            la única instancia. Se puede implementar esto usando el patrón miembro estático privada.
+            El ingrediente secreto aquí es volver a escribir el constructor.</item>
+        <item>Fábrica</item>
+        <item>El propósito de la fábrica es crear objetos. Por lo general se implementa en una clase o
+            un método estático de una clase, que tiene los siguientes propósitos:</item>
+        <item>• Realiza operaciones de repetir cuando la creación de objetos similares</item>
+        <item>• Ofrece una forma para que los clientes de la fábrica para crear objetos sin conocer
+            el tipo específico (clase) en la compilación tim</item>
+        <item>Y como ejemplo de "fábrica en la naturaleza," considerar la incorporada en el objeto global
+            constructor (). También se comporta como una fábrica, ya que crea objetos diferentes,
+            dependiendo de la entrada. Si se le pasa un número primitiva, se puede crear un objeto
+            con el constructor Number () detrás de las escenas. Lo mismo es cierto para la cadena y
+            valores booleanos. Cualquier otro valor, entre ellos no hay valores de entrada, crearán un objeto normal.</item>
+
+    </string-array>
+
+    <string-array name="iterador">
+
+        <item>Iterador</item>
+        <item>En el iterador, se tiene un objeto que contiene algún tipo de datos agregados.
+            Estos datos pueden ser almacenados internamente en una estructura compleja, y se
+            desea proporcionar un fácil acceso a todos los elementos de esa estructura.
+            El consumidor de su objeto no necesita saber cómo se estructura sus datos; todo
+            lo que necesitan es trabajar con los elementos individuales. En el iterador, su
+            objeto necesita proporcionar un método next (). Llamando al lado () en la secuencia
+            debe devolver el siguiente elemento consecutivo, en donde le toca a usted decidir qué
+            "próxima" significa en su estructura de datos en particular.</item>
+        <item>Decorador</item>
+        <item>En el patrón decorador, la funcionalidad adicional se puede añadir a un objeto de
+            forma dinámica, en tiempo de ejecución. Cuando se trata de clases estáticas, esto podría
+            ser un desafío. En JavaScript, objetos son mutables, por lo que el proceso de agregar
+            funcionalidad a un objeto no es un problema en sí mismo. Una característica conveniente
+            de la Decorator es la personalización y la configuración del comportamiento esperado. Se
+            empieza con el objeto liso, que tiene algunas funciones básicas. A continuación, escoger
+            y elegir de una piscina a disposición de los decoradores que los que usted desee utilizar
+            para mejorar su objeto sin formato y en qué orden, si el orden es importante.</item>
+        <item>Una forma de implementar el patrón decorador es que cada decorador de un objeto que
+            contiene los métodos que deben ser sobrescritos. Cada decorador realmente hereda el objeto
+            mejorado hasta el momento después de que el decorador anterior.</item>
+        <item>En lugar de tener cada método decorado llamar al método previamente en
+            la cadena, se puede pasar simplemente el resultado del método anterior como un
+            parámetro al método siguiente</item>
+        <item>Los métodos de decoración son también más simple. Todo el trabajo se realiza por el
+            método que "está de acuerdo" para ser decorado. En este ejemplo de implementación,
+            getPrice () es el único método que permite la decoración. Si usted quiere tener más
+            métodos que pueden ser decoradas, entonces la parte de ir a través de la lista de
+            decoradores se debe repetir por cada método adicional. Sin embargo, esto puede abstraerse
+            fácilmente en un método de ayuda que tiene un método y hace que sea "decorable." En tal implementación
+            la propiedad deco rators_list se convertiría en un objeto con propiedades con nombres de los métodos y
+            los valores son matrices de objetos decorador</item>
+
+    </string-array>
+
+    <string-array name="estrategia">
+
+        <item>Estrategia</item>
+        <item>El patrón de estrategia le permite seleccionar los algoritmos en tiempo de ejecución.
+            Los clientes del código pueden trabajar con la misma interfaz, pero escoger una serie
+            de algoritmos disponibles para manejar su tarea específica en función del contexto de
+            lo que están tratando de hacer. Un ejemplo del uso del patrón de estrategia sería resolver
+            el problema de la validación del formulario. Puede crear un objeto validador con un método de
+            validación (). Este es el método que se llamará independientemente del tipo concreto de forma
+            y siempre devolverá el resultado mismo: una lista de datos que no validar y cualquier mensaje de error.</item>
+        <item>El objeto proxy entra en escena y se hace cargo de la comunicación entre http y
+            vídeos. Se trata de combinar las peticiones usando una lógica sencilla: un búfer
+            de 50 ms. El objeto vídeos no llama al servicio HTTP directamente, sino que llama
+            al proxy en lugar. El proxy entonces espera antes de reenviar la solicitud. Si otras
+            llamadas de los videos vienen en los 50 ms tiempo de espera, que se fusionarán en una
+            sola. Un retraso de 50 ms es más o menos perceptible para el usuario, pero puede ayudar
+            a combinar las solicitudes y acelerar la experiencia al hacer clic en "cambiar" y la
+            ampliación de más de un vídeo a la vez. Se reduce también la carga del servidor de manera
+            significativa desde el servidor web tiene que manejar un número menor de solicitudes.</item>
+        <item>Mediador</item>
+        <item>Aplicaciones-grandes y pequeños-se componen de objetos separados. Todos estos
+            objetos necesitan una manera de comunicarse entre sí de una manera que no hace daño
+            mantenimiento y su capacidad de cambiar de forma segura una parte de la aplicación sin
+            romper el resto de ella. A medida que la aplicación crece, se agrega más y más objetos.
+            Luego, durante la refactorización, los objetos se eliminan y se han reorganizado. Cuando
+            los objetos se conocen demasiado el uno del otro y se comunican directamente (llamar a los
+            métodos de los demás y cambiar las propiedades) esto lleva a estrecho acoplamiento indeseable.</item>
+
+    </string-array>
+
+    <string-array name="navegacion">
+
+        <item>Marcos y Balizas de imagen</item>
+        <item>Una forma alternativa de hacer scripting remoto es utilizar marcos.
+            Con JavaScript puede crear un iframe y cambiar su dirección URL src.
+            La nueva URL puede contener datos y llamadas a funciones que la
+            actualización del llamante-página padre fuera del marco flotante.
+            La forma más simple de scripting remoto es cuando todo lo que necesita
+            hacer es enviar los datos al servidor, y no está esperando una respuesta.
+            En esos casos se puede crear una nueva imagen y apuntando con su parte src
+            a la secuencia de comandos en el servidor.</item>
+        <item>La combinación de secuencias de comandos</item>
+        <item>La primera regla en la construcción de las páginas de carga rápida es tener
+            el menor número de componentes externos como sea posible, ya que las peticiones
+            HTTP son caros. Cuando se trata de JavaScript, lo que significa que puede acelerar
+            los tiempos de carga significativamente mediante la combinación de script externo archivos juntos.</item>
+        <item>Digamos que su página está usando la biblioteca jQuery. Este es un archivo .js.
+            Entonces usted también está usando un par de plugins jQuery, que también vienen
+            cada uno en un archivo separado. De esta forma puede terminar rápidamente con 4 o 5
+            archivos antes de que usted ha escrito una sola línea. Tiene sentido para combinar
+            estos archivos en uno, especialmente teniendo en cuenta que algunos de ellos serán
+            de tamaño pequeño (2 a 3 Kb) y la sobrecarga de HTTP costará más tiempo que la descarga real.
+            La combinación de las secuencias de comandos simplemente significa la creación de un nuevo archivo
+            y pegar el contenido de cada uno.</item>
+
+    </string-array>
+
+    <string-array name="minimizacion">
+
+        <item>Minifying y Compresión</item>
+        <item> Es importante que el proceso de minimización también una parte de su proceso de
+            acumulación de entrada en funcionamiento. Cuando se piensa desde la perspectiva del
+            usuario, no hay razón por la que deberían tener que descargar todos los comentarios
+            en el código, que no sirven a ningún propósito para el funcionamiento de la aplicación.
+            El beneficio de minimización puede ser diferente dependiendo de cómo se utiliza generosamente
+            los comentarios y espacios en blanco, y también sobre las herramientas Minificación específicos
+            que utilice. Pero en promedio se estaría buscando a la reducción de tamaño de archivo de alrededor del 50%.</item>
+        <item>El uso de un CDN</item>
+        <item>CDN significa Content Delivery Network. Se trata de un (a veces bastante caro) servicio de alojamiento
+            pagado que le permite distribuir copias de los archivos en diferentes centros de datos en todo el mundo y
+            les han servido más rápido a sus usuarios, mientras se mantiene la misma dirección URL en su código.</item>
+
+    </string-array>
+
+    <string-array name="descarga">
+
+        <item>El lugar del elemento script</item>
+        <item>Los elementos de script bloquear descargas de páginas progresivas. Navegadores
+            descargar varios componentes a la vez, pero cuando se encuentran con un script externo,
+            dejan de descarga adicional o hasta que el archivo de secuencia de comandos se descarga,
+            se analiza, y ejecutado. Esto perjudica el tiempo total de la página, especialmente si
+            ocurre varias veces durante una carga de la página.</item>
+        <item>Fragmentación HTTP</item>
+        <item>  El protocolo HTTP soporta la llamada codificación fragmentada. Se le permite enviar
+            la página en pedazos. Así que si usted tiene una página complicada, usted no tiene que
+            esperar a que todo el trabajo de servidor para completar antes de iniciar el envío de
+            la cabeza más o menos estática de la página.</item>
+        <item>Carga lenta</item>
+        <item>La técnica conocida como perezoso de carga se refiere a la carga de un archivo
+            después de que el evento de carga de página. A menudo es beneficioso para dividir
+            un gran paquete de código en dos partes.</item>
+        <item>El patrón anterior cargado JavaScript adicional incondicionalmente después de carga de la página,
+            en el supuesto de que es probable que se necesita el código. Pero podemos hacerlo mejor y cargar
+            sólo partes del código y sólo las partes que son realmente necesarias? Imagine que tiene una barra
+            lateral en la página con diferentes pestañas. Al hacer clic en una pestaña realiza una
+            solicitud XHR para obtener el contenido, actualiza el contenido de la pestaña, y anima
+            la actualización de desvanecimiento del color. ¿Y si este es el único lugar de la página
+            que necesita su XHR y bibliotecas de animación, y lo que si el usuario no hace clic en una ficha?
+            Introduzca el modelo de carga bajo demanda. Puede crear una función require () o un método que toma
+            un nombre de archivo de una secuencia de comandos para ser cargados y una función de devolución de
+            llamada que se ejecutará cuando el script adicional es cargada.</item>
+
+    </string-array>
+</resources>

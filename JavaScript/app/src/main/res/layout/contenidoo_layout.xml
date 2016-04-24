@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/Btn_botonMasImagen1"
+            android:text="@string/cont"
+            android:drawableLeft="@drawable/arrow_next1"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="presionBotonImagen1"
+            android:clickable="true"
+
+            />
+        <Button android:id="@+id/Btn_botonMasImagen"
+            android:text="@string/eval"
+            android:layout_gravity="left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="presionBotonImagen"
+            android:clickable="true"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mu"
+            android:id="@+id/btn_audio"
+            android:layout_gravity="right"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:onClick="presionaBotonAudio"
+            android:clickable="true"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:layout_gravity="left"
+            android:id="@+id/viewVideoButton"
+            android:onClick="presionaBotonvideo"
+            android:clickable="true"
+
+            />
+
+</LinearLayout>
+
+
+
+
+        <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@android:id/tabhost">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TabWidget
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@android:id/tabs"
+                android:background="#02b7ab"></TabWidget>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@android:id/tabcontent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tabCreacion"
+                    android:orientation="vertical"
+                    >
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/lsv_creacion"></ListView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tabPrivacidad"
+                    android:orientation="vertical"
+                    >
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/lsv_privacidad"></ListView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tabPatroM"
+                    android:orientation="vertical"
+                    >
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/lsv_patroM"></ListView>
+
+                </LinearLayout>
+
+
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </TabHost>
+
+
+
+</LinearLayout>
